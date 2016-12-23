@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/two_et_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/two_bt_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(三级联动)城市选择" />
+
+    <EditText
+        android:id="@+id/two_et_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/two_bt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(循环效果)时间日期选择" />
+
+</LinearLayout>
